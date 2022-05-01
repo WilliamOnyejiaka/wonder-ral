@@ -1,0 +1,20 @@
+{
+    "name": "wonder-tech/wonder-ral",
+    "description": "Php library for creating rest apis",
+    "type": "library",
+    "authors": [
+        {
+            "name": "WilliamOnyejiaka",
+            "email": "williamonejiaka08062528003@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "firebase/php-jwt": "^6.1"
+    },
+    "autoload": {
+      "psr-4": {
+        "Lib\\": "src/"
+      }
+    }
+}
