@@ -108,6 +108,10 @@ class Router {
       header("HTTP/1.0 404 Not Found");
       if(!empty($this->callback_404)){
         $callback = $this->callback_404;
+      }else {
+        $callback = function() {
+          echo "Not Found";
+        };
       }
     }
     if(is_string($callback)){
