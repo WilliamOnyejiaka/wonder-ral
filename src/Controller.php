@@ -66,7 +66,7 @@ class Controller
     $callback($body);
   }
 
-  public function acccess_token_controller($callback)
+  public function access_token_controller($callback)
   {
     $token = (getallheaders())['Authorization'] ?? false;
     $body = json_decode(file_get_contents("php://input"));
