@@ -3,7 +3,7 @@ declare(strict_types=1);
 
 namespace Lib;
 
-include_once __DIR__ . "/../config/config.php";
+include_once __DIR__ . "/../../../../config/config.php";
 require __DIR__ .  "/../vendor/autoload.php";
 
 use \Firebase\JWT\JWT;
