@@ -59,7 +59,7 @@ class Validator {
       http_response_code(400);
       echo json_encode(array(
         'error' => true,
-        'message' => "password length should be greater than or equal to 5",
+        'message' => "password length should be greater than or equal to $password_length",
       ));
       exit();
     }
